@@ -1,0 +1,7 @@
+#!/usr/bin/evn bash
+# server-01 login
+
+eval $("ssh-agent")
+
+ssh-add ~/.ssh/school
+ssh ubuntu@100.25.119.24
